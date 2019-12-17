@@ -38,8 +38,8 @@ export class Navbar extends Component {
             <div className='slider'>
               <Slider
                 defaultValue={level}
-                trackStyle={{ backgroundColor: 'blue', height: 10 }}
-                handleStyle={{ borderColor: 'blue', height: 18, width: 18 }}
+                trackStyle={{ backgroundColor: 'lightgray', height: 10, width: 0 }}
+                handleStyle={{ borderColor: 'gray', height: 18, width: 18 }}
                 railStyle={{ height: 10 }}
                 min={100}
                 max={900}
